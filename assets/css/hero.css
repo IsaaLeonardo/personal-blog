@@ -1,0 +1,60 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-block: 30px;
+}
+
+.hero img {
+    inline-size: 110px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.title h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    color: var(--black);
+    line-height: 0;
+}
+
+.title p {
+    margin-inline: auto;
+    max-inline-size: 400px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: var(--black)
+}
+
+@media (min-width: 350px) {
+    .title h1 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 385px) {
+    .title h1 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 720px) {
+    .hero img {
+        inline-size: 150px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .title p {
+        font-size: 14px;
+    }
+}

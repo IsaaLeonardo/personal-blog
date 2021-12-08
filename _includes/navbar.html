@@ -1,0 +1,11 @@
+<nav class="navbar">
+  <div class="wrapper">
+    <div class="navbar-content">
+      {% for item in site.data.navbar %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="currentPage",{% endif %}>
+          {{ item.name | capitalize }}
+        </a>
+      {% endfor %}
+  </div>
+  </div>
+</nav>

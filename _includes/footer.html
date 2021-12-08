@@ -1,0 +1,17 @@
+<footer>
+    <div class="social-media">
+        {% for media in site.data.social-media %}
+            <a href="{{ media.link }}" target="_blank">
+                <img src="{{ media.image }}" alt="Ícono de {{ media.name }}">
+            </a>
+        {% endfor %}
+    </div>
+
+    <div class="madein">
+        <p>Hecho con</p>
+        <img src="https://i.imgur.com/6BQqMKO.png" alt="Emoji de arepa">
+        <p>en Caracas, Venezuela</p>
+    </div>
+
+    <p class="copyright">Isaac Leonardo Muñoz Colmenares © 2021</p>
+</footer>

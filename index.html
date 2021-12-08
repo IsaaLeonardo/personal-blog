@@ -1,0 +1,30 @@
+---
+layout: default
+title: Inicio
+---
+<main>
+    <section class="hero">
+        <img src="https://i.imgur.com/yROFMiv.png" alt="Logo de Marca Personal de Isaac Leonardo M.">
+        <div class="title">
+            <h1>Isaac Leonardo M.</h1>
+            <p>Estudiante, compañero, hijo, sobrino, hermano, tío y amigo</p>
+        </div>
+    </section>
+
+    <section class="lastPosts">
+        <ul>
+            {% for post in site.posts limit:1 %}
+                <li class="lastPost">
+                    {% include post.html %}
+                </li>
+            {% endfor %}
+            <div class="olderPosts">
+                {% for post in site.posts limit:2 offset:continue %}
+                    <li>
+                        {% include post.html %}
+                    </li>
+                {% endfor %}
+            </div>
+        </ul>
+    </section>
+</main>
