@@ -1,11 +1,21 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<div class="date">
-    <img src="https://i.imgur.com/xn4cWuv.png" alt="Ícono de calendario">
-    <p>{{ page.date }}</p>
-</div>
-<img src="{{ page.image }}" alt="{{ page.alt-image }}">
+<main class="post-content">
+    <div class="post-wrapper">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="date">
+            <img src="https://i.imgur.com/xn4cWuv.png" alt="Ícono de calendario">
+            <p>{{ page.date | date:"%e de diciembre de %Y" }}</p>
+        </div>
+        
+        <p>{{ page.firstParagraph }}</p>
+    </div>
 
-{{ content }}
+    <img class="post-image" src="{{ page.image }}" alt="{{ page.alt-image }}">
+    
+    <div class="post-wrapper">
+        {{ content }}
+    </div>
+</main>
+<script src="/assets/js/post.js"></script>

@@ -1,0 +1,16 @@
+.date {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-block-end: 15px;
+}
+
+.date img {
+    inline-size: 24px;
+    block-size: 24px;
+}
+
+.date p {
+    font-size: 16px;
+    margin-block: 0;
+}

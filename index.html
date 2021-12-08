@@ -15,13 +15,13 @@ title: Inicio
         <ul>
             {% for post in site.posts limit:1 %}
                 <li class="lastPost">
-                    {% include post.html %}
+                    {% include postCard.html %}
                 </li>
             {% endfor %}
             <div class="olderPosts">
                 {% for post in site.posts limit:2 offset:continue %}
                     <li>
-                        {% include post.html %}
+                        {% include postCard.html %}
                     </li>
                 {% endfor %}
             </div>

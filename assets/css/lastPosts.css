@@ -45,18 +45,6 @@
     border-radius: 3px;
 }
 
-.date {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-block-end: 15px;
-}
-
-.date img {
-    inline-size: 24px;
-    block-size: 24px;
-}
-
 .cta {
     align-self: flex-end;
     background-color: var(--primary);

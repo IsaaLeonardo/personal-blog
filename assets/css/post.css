@@ -1,0 +1,28 @@
+.post-title {
+    margin-block: 5px;
+}
+
+.post-content p {
+    margin-block: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.post-content img {
+    inline-size: 100%;
+}
+
+.post-content a {
+    color: var(--primary);
+    /* text-decoration: underline; */
+}
+
+.post-content .post-image {
+    inline-size: 100%;
+}
+
+.post-wrapper {
+    inline-size: 100%;
+    max-inline-size: 700px;
+    margin-inline: auto;
+}
