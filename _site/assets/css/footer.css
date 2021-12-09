@@ -1,0 +1,37 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    inline-size: 100%;
+    min-block-size: 130px;
+    padding-block: 30px;
+}
+
+.social-media a {
+    margin-inline-end: 10px;
+}
+
+.social-media img {
+    inline-size: 44px;
+    block-size: 44px;
+}
+
+.madein {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.madein img {
+    block-size: 24px;
+    inline-size: 24px;
+}
+
+@media screen and (min-width: 730px) {
+    footer {
+        flex-direction: row;
+    }
+}
