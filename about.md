@@ -13,4 +13,4 @@ Mi objetivo con la creación de este blog es generar nuevas relaciones y fortale
 
 Prometo que lo que escriba siempre será algo que me genere emoción e interés y no algo únicamente hecho para buscar atención. Y si llego a conseguir las impresiones que tanto deseo, prometo ser tan inteligente para que mis emociones actúen ante lo positivo y la razón ante lo negativo.
 
-La interacción será muy importante en este proceso y por eso es que si me lees y tienes algo que decir, te invito a hacerlo por Twitter o Instagram y estaré muy agradecido.
+La interacción será muy importante en este proceso y por eso es que si me lees y tienes algo que decir, te invito a hacerlo por [Twitter](https://twitter.com/isaaleonardo) o [Instagram](https://instagram.com/isaaleonardo) y estaré muy agradecido.
